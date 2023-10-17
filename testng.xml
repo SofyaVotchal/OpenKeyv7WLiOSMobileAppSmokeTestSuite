@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+<suite name="OpenKey V7 IOS Mobile App Automation">
+    <listeners>
+        <listener class-name="whitelabelauberge.setups.ListenersManager"/>
+    </listeners>>
+    <test verbose="2" preserve-order="true" name="OpenKey V7 IOS Mobile App Automation Smoke Test Suite">
+        <classes>
+            <class name="whitelabelauberge.basetest.TestRunner"></class>
+        </classes>
+    </test>
+</suite>
+
+

@@ -1,0 +1,13 @@
+name: AubergeWL7IOSMobileApp #White Label app Auberge
+environment: dev #MIWARail1 Lock3
+desired_capabilities:
+  -   device: 192.168.1.125 #Monali's iPhone #192.168.1.114 - Rail1Miwa3Room101
+      os_version: 16.4.1
+      bundleId: co.openkey.aubergeDesIles #com.openkey.guestapp(Pre-installed app Launch) #com.openkey.guestapp.dev (Firebase Dev Build) #com.apple.TestFlight (TestFlight Build Test Flow) #com.apple.AppStore (Prod Build Test Flow)
+      xcodeOrgId: VXJZ474E3Y
+      xcodeSigningId: Apple Development
+      udid: 00008030-001105E0367B402E #Monali's iPhone UDID #00008030-000921083630C02E(Rail1Kaba3)
+      automationName: XCUITest
+      orientation: PORTRAIT
+      type: iOS
+      doorLockTotalCount: 3
